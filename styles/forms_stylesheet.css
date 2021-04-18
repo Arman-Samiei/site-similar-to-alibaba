@@ -1,0 +1,206 @@
+
+/* login form*/
+.forms{
+    width:100%;
+    height:110vh;
+    background-color:rgb(245, 245, 245);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:rgb(255,255,255);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 -1px 1px 0, rgba(0, 0, 0, 0.15) 0 1px 5px 0;
+    width:62.5%;
+    height:83.2%;
+}
+.form-item:first-child{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.form-item:first-child>div:first-child{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+.form-item:first-child div:first-child a{
+    display: inline-block;
+    border: none;
+    width: 40%;
+    background: transparent;
+    padding: 10px 10px 0;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 5%;
+    color:rgb(100,100,100);
+    fill:rgb(100,100,100);
+}
+.login-form .form-item:first-child div:first-child a:first-child{
+    background-color: rgba(74,144,226, .05);
+    border: 1px solid rgb(74, 144, 226);
+    fill: #4a90e2;
+    color: #4a90e2;
+}
+.login-form .form-item:first-child div:first-child a:last-child:hover{
+    background-color: rgba(74,144,226, .05);
+}
+.form-item:first-child div:first-child a:last-child{
+    margin-right: 1%;
+
+
+}
+.form-item div:first-child a:hover{
+
+}
+.login-form .form-item form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:100%;
+    color:rgb(100,100,100);
+}
+.form-item>div a:first-child, .form-item>div a:nth-child(2){
+    cursor: pointer;
+}
+.form-item form *{
+    display: block;
+    color:rgb(100,100,100);
+}
+.form-item form div, .form-item form a:last-child{
+    width: 100%;
+    direction: rtl;
+    margin-right: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-item form input, .form-item form a:last-child{
+    margin: .5rem 0 0;
+    width: 90%;
+    height:1.5rem;
+    border-radius: 4px;
+    border: 1px solid rgb(210, 210, 210);
+    padding: .5rem;
+}
+.form-item form input[type=submit], .form-item form a:last-child{
+    background-color: #4990e2;
+    color: rgb(255,255,255);
+    cursor: pointer;
+    box-sizing: inherit;
+    font-weight: bold;
+    border: none;
+}
+.form-item form *:focus{
+    outline: none;
+}
+.form-item form input:focus{
+    border:1px solid rgb(0,0,0);
+}
+.form-item form input[type=submit]:focus{
+    border: 0 none;
+}
+.form-item form input[type=submit]:hover{
+    background-color: #2276d6;
+    transition: .5s;
+}
+.login-form form a:first-of-type{
+    margin-right: calc(50% - 3.015rem);
+    margin-left: calc(50% - 3.015rem);
+}
+.form-item form a:first-of-type{
+    display: inline-block;
+    box-sizing: border-box;
+
+    color: #2979ff;
+}
+.form-item form a:hover{
+    color: #64b5f6;
+    transition: .5s;
+}
+.form-item form a:last-child{
+    text-align: center;
+    margin-right: 0;
+}
+.form-item form a:last-child{
+    background-color: #649b18;
+    border-color: #568515;
+}
+.form-item form a:last-child:hover{
+    background-color: #486f11;
+    border-color: #34500c;
+    color: rgb(255,255,255);
+    transition: .5s;
+}
+.form-container div:last-child ul,.form-container div:last-child h5{
+    direction: rtl;
+    color:rgb(100,100,100);
+    margin-right:1rem;
+}
+.form-container div:last-child ul{
+    font-size: 14px;
+    margin-right: 4rem;
+    margin-left:4rem;
+    width:calc(100% - 8rem);
+}
+.form-container div:last-child h5{
+    margin-top: 2rem;
+}
+.signup-form form>div:first-child, .signup-form form>div:nth-child(2){
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width:auto;
+    margin-bottom: 0;
+}
+.signup-form form>div:first-child div:first-child, .signup-form form>div:nth-child(2) div:first-child{
+    margin-left: 1rem;
+    width: calc(100% - 1rem);
+
+}
+.signup-form form>div:first-child div:last-child, .signup-form form>div:nth-child(2) div:last-child{
+    margin-left: 1rem;
+    width: calc(100% - 1rem);
+
+}
+.signup-form .form-item:first-child div:first-child a:last-child{
+    background-color: rgba(74,144,226, .05);
+    border: 1px solid rgb(74, 144, 226);
+    fill: #4a90e2;
+    color: #4a90e2;
+}
+.signup-form .form-item:first-child div:first-child a:first-child:hover{
+    background-color: rgba(74,144,226, .05);
+}
+/*.signup-form .form-item:first-child div:first-child a:first-child{*/
+    /*margin-right: 1%;*/
+/*}*/
+
+.signup-form input[type="checkbox"]{
+    display: inline;
+    width:2rem;
+    height: 2rem;
+    margin:0 0 0 .3rem;
+    position: relative;
+    top:.25rem;
+}
+
+.signup-form form>div:nth-child(3) span,.signup-form form>div:nth-child(3) a:first-of-type,.signup-form form>div:nth-child(4) span{
+    display: inline;
+    width: auto;
+    margin-bottom:1rem;
+    position: relative;
+    bottom:.5rem;
+}
+.signup-form form a:first-of-type{
+    margin-left: .1rem;
+}
